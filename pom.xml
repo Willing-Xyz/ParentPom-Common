@@ -4,9 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>xyz.willing.parentpom</groupId>
+    <groupId>io.github.willing-xyz.parentpom</groupId>
     <artifactId>parentpom-common</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>9</version>
+    </parent>
 
 
     <properties>
@@ -29,6 +36,29 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/Willing-Xyz/ParentPom-Common</url>
+        <connection>https://github.com/Willing-Xyz/ParentPom-Common.git</connection>
+        <developerConnection>https://github.com/Willing-Xyz/</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>willing</name>
+            <email>sxswilling@163.com</email>
+            <url>willing-xyz.github.io</url>
+        </developer>
+    </developers>
 
 
 </project>
