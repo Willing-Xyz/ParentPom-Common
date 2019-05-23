@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.willing-xyz.parentpom</groupId>
+    <groupId>cn.willingxyz.parentpom</groupId>
     <artifactId>parentpom-common</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -14,7 +14,6 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
-
 
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
